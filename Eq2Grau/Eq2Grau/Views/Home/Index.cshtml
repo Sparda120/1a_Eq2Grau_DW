@@ -6,3 +6,23 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<form>
+    <p>Parâmetros da equação de 2º Grau:</p>
+    <p>
+        A: <input type="text" /><br />
+        B: <input type="text" /><br />
+        C: <input type="text" /><br />
+    </p>
+        <input type="submit" value="Calcular" />
+    
+</form>
+
+@*resposta do controller*@
+<div>
+    <p> X1= @ViewBag.X1 <br />
+        X2= @ViewBag.X2
+
+    </p>
+
+</div>
